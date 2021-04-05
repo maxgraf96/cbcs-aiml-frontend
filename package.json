@@ -1,0 +1,14 @@
+{
+	"name": "dmlap_project_frontend_mobile",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"nodemon": "^2.0.7",
+		"osc": "^2.4.1",
+		"socket.io": "^4.0.1"
+	},
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	}
+}

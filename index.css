@@ -1,0 +1,93 @@
+html {
+	height: 100% !important;
+	width: 100% !important;
+	margin: 0;
+	position: fixed;
+	font-family: helvetica;
+	background: black;
+	color: white;
+}
+
+body {
+	margin: 0;
+	-webkit-user-select: none !important;
+	/* Disable double-click-to-zoom */
+	touch-action: manipulation;
+}
+
+canvas {
+	width: 100%;
+	z-index: 30;
+	display: inline-block;
+	-webkit-user-select: none !important;
+	border: none;
+}
+
+#myProgress {
+	width: 100%;
+	z-index: 60;
+	position: absolute;
+	top: 277px;
+	/*margin-top: -450px;*/
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myBar {
+	width: 1%;
+	height: 150px;
+	background: #FF605C;
+}
+
+button {
+	border: 1px solid black;
+	-webkit-appearance: none;
+	font-size: 36pt;
+	z-index: 50;
+	color: #f5f6fa;
+}
+button.fullWidth {
+	height: 150px;
+	border-left: none;
+	border-right: none;
+}
+button.accelerometerPermissions {
+	color: grey;
+}
+button.toggleAgent {
+	border: none !important;
+}
+button.columnLeft {
+	width: 50%;
+	height: 150px;
+	border-left: none;
+	border-top: none;
+	background: #2f3640;
+}
+button.columnRight {
+	width: 50%;
+	height: 150px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	background: #2f3640;
+}
+button.recording {
+	background: #FF605C;
+}
+button.play {
+	background: #00CA4E;
+}
+
+div.container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1px;
+	border: none;
+}
+
+div.header {
+	margin: 24px;
+	font-family: Helvetica;
+	font-size: 50pt;
+}
